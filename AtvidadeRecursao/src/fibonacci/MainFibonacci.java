@@ -7,10 +7,12 @@ public class MainFibonacci {
         int resultado;
         
         System.out.println("Sequência de Fibonacci até passar de 100:");
+
+        FibonacciRecursivo fibo = new FibonacciRecursivo();
         
         while (true) {
-            resultado = fibonacci(i);
-            if (resultado > 100) {
+            resultado = fibo.fibonacci(i);
+            if (resultado >200) {
                 break;
             }
             System.out.print(resultado + " ");

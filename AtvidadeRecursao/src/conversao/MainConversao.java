@@ -6,7 +6,7 @@ public class MainConversao {
 
     BinarioDecimal num = new BinarioDecimal();
 
-        int binario = 11; 
+        int binario = 1010; 
         int decimal =  num.converter(binario, 0);
        
         System.out.println("O número binário " + binario + " em decimal é: " + decimal);
